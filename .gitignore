@@ -1,0 +1,72 @@
+# Build dosyaları
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Kaynak ve test build dizinleri
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IntelliJ IDEA dosyaları
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# NetBeans dosyaları
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Eclipse/STS dosyaları
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# VS Code dosyaları
+.vscode/
+
+# Çevresel değişkenler
+.env
+secret.env
+
+# Kullanıcı profili dosyaları
+*.bash_history
+*.gitconfig
+*.lesshst
+*.ssh/
+AppData/
+Contacts/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Links/
+Music/
+NTUSER.DAT*
+OneDrive/
+PCManger/
+Pictures/
+Saved Games/
+Searches/
+Videos/
+ntuser.dat.*
+ntuser.ini
+
+# Maven dosyaları
+.m2/
+
+# Diğer istemediğiniz dosya ve dizinler
+bfg-repo-cleaner/
